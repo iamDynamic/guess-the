@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Gues The emoji pt2</title>
+          <link rel="shortcut icon" href="./Guess The emoji.jpeg" type="image/x-icon">
+</head>
+<style>
+          * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: sans-serif;
+          }
+
+          nav {
+                    background-color: #0077b7;
+                    color: #fff;
+          }
+
+          nav h1 {
+                    text-align: center;
+                    padding: 30px;
+          }
+          .GameHolder{
+                    text-transform: capitalize;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 200px;
+          }
+          .GameHolder input{
+                    border: solid #0077b7;
+          }
+
+</style>
+
+<body>
+
+          <nav>
+                    <h1 onclick="location.href ='index.html'">Guess the emoji pt2</h1>
+          </nav>
+
+          
+          <div class="GameHolder">
+                    <div class="q">
+                              <h1 id="q"></h1>
+                              <img id="imgQ" src="" alt="">
+                    </div>
+                    <div class="input">
+                              <input autocomplete="off" id="TextValue" type="text">
+                              <input style="background-color: #0077b7;color: #fff;text-align: center;" type="submit" value="Submit The Answer" id="Submit">
+                    </div>
+          </div>
+
+
+
+</body>
+<script src="./GuessTheEmojiPt2.js"></script>
+</html>
